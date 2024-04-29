@@ -1,0 +1,26 @@
+body{
+background: linear-gradient(to left, rgb(112, 247, 112), green) 
+
+
+
+}
+h1{
+background: linear-gradient(to right, rgba(129, 23, 228, 0.877), rgb(204, 158, 247));
+width: 370px;
+border-radius: 15px;
+color: white;
+}
+.items {
+padding: 10px;
+display: flex;
+gap: 40px;
+color: white;
+
+
+}
+h2{
+    background: linear-gradient(to right, blue, rgb(117, 117, 245));
+    width: 240px;
+    border-radius: 15px;
+    color: white;
+}
