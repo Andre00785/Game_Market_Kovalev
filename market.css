@@ -1,5 +1,5 @@
 body{
-background: linear-gradient(to left, rgb(112, 247, 112), green);
+background: white;
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
@@ -17,17 +17,17 @@ gap: 10px
 }
 
 h1{
-background: linear-gradient(to right, rgba(129, 23, 228, 0.877), rgb(204, 158, 247));
+background: linear-gradient(to right, rgba(228, 23, 23, 0.877), rgb(247, 158, 158));
 width: 370px;
 border-radius: 15px;
-color: white;
+color: rgb(0, 0, 0);
 }
 
 .items{
 padding: 10px;
 display: flex;
 gap: 20px;
-color: white;
+color: rgb(0, 0, 0);
 justify-content: space-between;
 flex-wrap: wrap
 ;
@@ -38,22 +38,22 @@ width: 200;
 height: 320;
 margin-bottom: 10px;
 
-border: 1px solid white;
+border: 1px solid rgb(0, 0, 0);
 border-radius: 5px;
 box-shadow: 0 0 7px black;
 }
 
 div{
-border: 1px solid darkblue;
-color: white;
+border: 1px solid rgb(0, 0, 0);
+color: rgb(0, 0, 0);
 
 }
 
 .title {
-    background: linear-gradient(to right, blue, rgb(117, 117, 245));
+    background: red;
     width: 240px;
     border-radius: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-transform: uppercase;
     font-size: 20px;
@@ -63,7 +63,7 @@ color: white;
 }
 
 .contacts p {
-color: white;
+color: rgb(0, 0, 0);
 margin: 3px;
 }
 
@@ -72,18 +72,18 @@ font-weight: 3px red;
 }
 
 .contacts p:last-child{
-border-left: 3px red;
+border-left: 3px rgb(255, 0, 0);
 }
 
 .license {
 font-size: 9px;
 text-align: justify;
-color: wheat;
+color: rgb(0, 0, 0);
 }
 
 .item-title{
     font-weight: bold;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .item-image{
@@ -94,6 +94,15 @@ background-size: 90%;
 background-repeat: no-repeat;
 background-position: center;
 }
+
+.item-image1{
+    width: 200px;
+    height: 300px;
+    background-image: url(img/001.jpg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
 
 .parts-pay{
 display: flex;
