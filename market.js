@@ -67,36 +67,38 @@ let itemsArray =[
         state: "Військовозобов'язаний",
         brain: "Зарозумілий",
         prise: "5000$",
-        photo: "",
+        photo: "https://thumb.tildacdn.com/tild6662-3264-4935-b833-323663316232/-/format/webp/yamaha_f310.jpg",
     },
     {
-        firstname: "Юрій",
-        lastname: "Кожанов",
+        firstname: "Вадим",
+        lastname: "Марценюк",
         age: "16",
         state: "Військовозобов'язаний",
         brain: "Зарозумілий",
-        prise: "5000$",
-        photo: "",
+        prise: "5001$",
+        photo: "https://chepuha.shop/image/cache/catalog/01-Foto/music/3_4/rds34/Polcraft-PLG-3834-RDS-5-700x700.jpg",
     },
     {
-        firstname: "Юрій",
-        lastname: "Кожанов",
+        firstname: "Олег",
+        lastname: "Недзвецький",
         age: "16",
         state: "Військовозобов'язаний",
         brain: "Зарозумілий",
-        prise: "5000$",
-        photo: "",
+        prise: "4999$",
+        photo: "https://simfo.in.ua/image/cache/catalog/guitars/%2034%20WH/1O9A0229-700x700.jpg",
     },
     {
-        firstname: "Юрій",
-        lastname: "Кожанов",
-        age: "16",
+        firstname: "Андрій",
+        lastname: "Ковальов",
+        age: "15",
         state: "Військовозобов'язаний",
         brain: "Зарозумілий",
-        prise: "5000$",
-        photo: "",
+        prise: "1$",
+        photo: "https://static.ukrinform.com/photos/2022_11/1668510371-412.png",
     },
 ]
+
+let itemsDiv = document.getElementById("items");
 
 if (itemsDiv) {
          itemsArray.forEach((item, index) =>{
@@ -104,8 +106,13 @@ if (itemsDiv) {
              itemsDiv.innerHTML += 
              `
              <div class = "item">
-             <h2>Товар №${index+1} з ${itemsArray.length}</h2>
-             <p>${item.lastname} ${item.firstname}</p>
+             <h2>Партієць №${index+1} з ${itemsArray.length}</h2>
+             <p>Ім'я: ${item.lastname} ${item.firstname}</p>
+             <p>Вік: ${item.age}</p>
+             <p>Доля: ${item.state}</p>
+             <p>Характер: ${item.brain}</p>
+             <p><img src="${item.photo}" class= "user-photo"></p>
+             <p>Ціна: ${item.prise}</p>
              </div>
              `
          })
