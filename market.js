@@ -59,7 +59,154 @@
 // // }
 
 
+// let itemsArray =[
+//     {
+//         firstname: "Юрій",
+//         lastname: "Кожанов",
+//         age: "16",
+//         state: "Військовозобов'язаний",
+//         brain: "Зарозумілий",
+//         prise: "5000$",
+//         photo: "https://thumb.tildacdn.com/tild6662-3264-4935-b833-323663316232/-/format/webp/yamaha_f310.jpg",
+//     },
+//     {
+//         firstname: "Вадим",
+//         lastname: "Марценюк",
+//         age: "16",
+//         state: "Військовозобов'язаний",
+//         brain: "Зарозумілий",
+//         prise: "5001$",
+//         photo: "https://chepuha.shop/image/cache/catalog/01-Foto/music/3_4/rds34/Polcraft-PLG-3834-RDS-5-700x700.jpg",
+//     },
+//     {
+//         firstname: "Олег",
+//         lastname: "Недзвецький",
+//         age: "16",
+//         state: "Військовозобов'язаний",
+//         brain: "Зарозумілий",
+//         prise: "4999$",
+//         photo: "https://simfo.in.ua/image/cache/catalog/guitars/%2034%20WH/1O9A0229-700x700.jpg",
+//     },
+//     {
+//         firstname: "Андрій",
+//         lastname: "Ковальов",
+//         age: "15",
+//         state: "Військовозобов'язаний",
+//         brain: "Зарозумілий",
+//         prise: "10000$",
+//         photo: "https://static.ukrinform.com/photos/2022_11/1668510371-412.png",
+//     },
+// ]
+
 let itemsArray =[
+    {
+        firstname: "Юрій",
+        lastname: "Кожанов",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "5000$",
+        photo: "https://thumb.tildacdn.com/tild6662-3264-4935-b833-323663316232/-/format/webp/yamaha_f310.jpg",
+    },
+    {
+        firstname: "Вадим",
+        lastname: "Марценюк",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "5001$",
+        photo: "https://chepuha.shop/image/cache/catalog/01-Foto/music/3_4/rds34/Polcraft-PLG-3834-RDS-5-700x700.jpg",
+    },
+    {
+        firstname: "Олег",
+        lastname: "Недзвецький",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "4999$",
+        photo: "https://simfo.in.ua/image/cache/catalog/guitars/%2034%20WH/1O9A0229-700x700.jpg",
+    },
+    {
+        firstname: "Андрій",
+        lastname: "Ковальов",
+        age: "15",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "10000$",
+        photo: "https://static.ukrinform.com/photos/2022_11/1668510371-412.png",
+    },
+    {
+        firstname: "Юрій",
+        lastname: "Кожанов",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "5000$",
+        photo: "https://thumb.tildacdn.com/tild6662-3264-4935-b833-323663316232/-/format/webp/yamaha_f310.jpg",
+    },
+    {
+        firstname: "Вадим",
+        lastname: "Марценюк",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "5001$",
+        photo: "https://chepuha.shop/image/cache/catalog/01-Foto/music/3_4/rds34/Polcraft-PLG-3834-RDS-5-700x700.jpg",
+    },
+    {
+        firstname: "Олег",
+        lastname: "Недзвецький",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "4999$",
+        photo: "https://simfo.in.ua/image/cache/catalog/guitars/%2034%20WH/1O9A0229-700x700.jpg",
+    },
+    {
+        firstname: "Андрій",
+        lastname: "Ковальов",
+        age: "15",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "10000$",
+        photo: "https://static.ukrinform.com/photos/2022_11/1668510371-412.png",
+    },
+    {
+        firstname: "Юрій",
+        lastname: "Кожанов",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "5000$",
+        photo: "https://thumb.tildacdn.com/tild6662-3264-4935-b833-323663316232/-/format/webp/yamaha_f310.jpg",
+    },
+    {
+        firstname: "Вадим",
+        lastname: "Марценюк",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "5001$",
+        photo: "https://chepuha.shop/image/cache/catalog/01-Foto/music/3_4/rds34/Polcraft-PLG-3834-RDS-5-700x700.jpg",
+    },
+    {
+        firstname: "Олег",
+        lastname: "Недзвецький",
+        age: "16",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "4999$",
+        photo: "https://simfo.in.ua/image/cache/catalog/guitars/%2034%20WH/1O9A0229-700x700.jpg",
+    },
+    {
+        firstname: "Андрій",
+        lastname: "Ковальов",
+        age: "15",
+        state: "Військовозобов'язаний",
+        brain: "Зарозумілий",
+        prise: "10000$",
+        photo: "https://static.ukrinform.com/photos/2022_11/1668510371-412.png",
+    },
     {
         firstname: "Юрій",
         lastname: "Кожанов",
@@ -106,13 +253,10 @@ if (itemsDiv) {
              itemsDiv.innerHTML += 
              `
              <div class = "item">
-             <h2>Партієць №${index+1} з ${itemsArray.length}</h2>
+             <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
              <p>Ім'я: ${item.lastname} ${item.firstname}</p>
              <p>Вік: ${item.age}</p>
-             <p>Доля: ${item.state}</p>
-             <p>Характер: ${item.brain}</p>
              <p><img src="${item.photo}" class= "user-photo"></p>
-             <p>Ціна: ${item.prise}</p>
              </div>
              `
          })
