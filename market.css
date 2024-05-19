@@ -133,6 +133,14 @@ height: 30px;
 
     .user-photo{
 width: 140px;
+    }
 
-
+    .link {
+        color: rgb(0, 0, 0); 
+        text-decoration: underline; 
+        cursor: pointer; 
+    }
+    
+    .link:hover {
+        color: rgb(45, 0, 206); 
     }
