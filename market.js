@@ -93,7 +93,7 @@ let itemsArray =[
         age: "15",
         state: "Військовозобов'язаний",
         brain: "Зарозумілий",
-        prise: "1$",
+        prise: "10000$",
         photo: "https://static.ukrinform.com/photos/2022_11/1668510371-412.png",
     },
 ]
