@@ -110,6 +110,7 @@ let itemsArray =[
         lastname: "Зинюк",
         age: "Хімія і Біологія",
         photo: "https://lyceum.ztu.edu.ua/wp-content/uploads/2024/01/zynjuk-natalija-mykolayivna.jpg",
+        pro: "Профіль",
     },
     {
         firstname: "Наталія",
@@ -221,6 +222,7 @@ if (itemsDiv) {
              <p>Ім'я: ${item.lastname} ${item.firstname}</p>
              <p>Предмет: ${item.age}</p>
              <p><img src="${item.photo}" class= "user-photo"></p>
+             <p>Переглянути: ${item.pro}</p>
              </div>
              `
          })
