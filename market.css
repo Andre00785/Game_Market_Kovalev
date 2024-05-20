@@ -132,7 +132,7 @@ height: 30px;
     }
 
     .user-photo{
-width: 140px;
+width: 200px;
     }
 
     .link {
@@ -144,3 +144,32 @@ width: 140px;
     .link:hover {
         color: rgb(45, 0, 206); 
     }
+
+    .user-photo1{
+        width: 20px;
+            }
+            
+            .user-photo2{
+                width: 20px;
+                    };
+
+.kdkd{
+text-align: right;
+
+
+}
+
+.txt122{
+border: 1px solid red;
+background: red;
+color: white;
+padding: 6px;
+text-align: center;
+border-radius: 15px;
+
+}
+
+.txt123{
+    text-align: right;
+
+}
