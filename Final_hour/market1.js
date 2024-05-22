@@ -211,6 +211,8 @@ if (itemsDiv) {
 
                 <div><img src="${item.title1_2}" class= "user-photo"></div>
 
+                <div>Ім'я розробника: ${item.studentName}</div>
+
                 <div class="parts-pay">
                     <div><img src="${item.title1_3}" class= "user-photo1"></div>
                     <div><img src="${item.title1_4}" class= "user-photo2"></div>
